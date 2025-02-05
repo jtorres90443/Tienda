@@ -1,13 +1,53 @@
+/*Selector de ID*/
 #tituloPrincipal {
     text-align: center;
     color: white;
     background-color: purple;
 }
-
+/*Selector de clase*/
 .parrafoVerde {
     color: green;
 }
 
 .parrafoRojo {
     color: red;
+}
+
+.ejemploPadding {
+/*    Todos los lados*/
+    padding: 10px;
+/*    Arriba/Abajo - Izquierda/Derecha*/
+    padding: 10px 20px;
+/*    Arriba - Izquierda/Derecha - /Abajo*/
+    padding: 10px 20px 30px;
+/*    Arriba - Derecha - Abajo - Izquierda*/
+    padding: 10px 20px 30px 40px;
+/*    Especifico*/
+    margin-bottom: 40px;
+}
+
+/*Selector de elemento*/
+/*p, h1, div {
+    font-size: 20px;
+    background-color: antiquewhite;
+}*/
+
+/*Selector descendente*/
+/*div p.parrafoVerde {
+    font-size: 50px;
+}*/
+
+a {
+    font-size: 15px;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: red;
+    transition: 1s;
+}
+a:active {
+    color: white;
+    background-color: black;
 }
