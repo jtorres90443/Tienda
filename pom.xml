@@ -88,6 +88,11 @@
             <artifactId>webjars-locator</artifactId>
             <version>0.46</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.firebase</groupId>
+            <artifactId>firebase-admin</artifactId>
+            <version>9.1.1</version>
+        </dependency>  
     </dependencies>
 
     <build>
@@ -101,6 +106,7 @@
                         <path>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
+                            <version>1.18.36</version>
                         </path>
                     </annotationProcessorPaths>
                     <compilerArgs>
