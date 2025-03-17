@@ -16,10 +16,5 @@ public class IndexController {
         model.addAttribute("attribute", "value");
         return "index";
     }
-    @RequestMapping("/contacto")
-    public String contacto(Model model) {
-        model.addAttribute("attribute", "value");
-        return "contacto";
-    }
-
+   
 }
